@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Platform team"]
   s.homepage    = "git://github.com/althea/sf_commons.git"
-  s.description = s.summary  = %q{Resque plugin that pushes the job statistics to statsd}
+  s.description = s.summary  = %q{commons extracted out...}
 
   s.rubyforge_project = "sf_commons"
 
