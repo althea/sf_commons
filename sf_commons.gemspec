@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.version     = SfCommons::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Platform team"]
-  s.homepage    = "git://github.com/althea/sf_commons.git"
+  s.homepage    = "http://github.com/althea/sf_commons.git"
   s.description = s.summary  = %q{commons extracted out...}
 
   s.rubyforge_project = "sf_commons"
