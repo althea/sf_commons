@@ -7,7 +7,7 @@ class MysqlURI
   end
 
   def to_options
-    defaults = {pool: 25, adapter: 'mysql2',  encoding: 'utf8',  reconnect: true, adapter: 'mysql2', verify_connection: true}
+    defaults = {pool: 25, adapter: 'mysql2',  encoding: 'utf8',  reconnect: true, verify_connection: true}
     if @uri.scheme == 'socket'
       defaults.merge(socket: @uri.path, database: @uri.query_values['database'])
     else
